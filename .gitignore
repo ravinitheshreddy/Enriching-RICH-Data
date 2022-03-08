@@ -186,6 +186,10 @@ cython_debug/
 .history
 .ionide
 
+# Data folders
+
+data/intermediate_steps/
+
 # Support for Project snippet scope
 
 # End of https://www.toptal.com/developers/gitignore/api/python,jupyternotebooks,visualstudiocode
