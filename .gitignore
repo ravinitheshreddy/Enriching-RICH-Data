@@ -193,3 +193,13 @@ data/intermediate_steps/
 # Support for Project snippet scope
 
 # End of https://www.toptal.com/developers/gitignore/api/python,jupyternotebooks,visualstudiocode
+data/external_data/Morphalou3_formatCSV_toutEnUn/Morphalou3_CSV.csv
+data/external_data/Prolex-Unitex_1_2/Prolex-Unitex_1_2.dic
+data/from_previous_project/people_of_paris_1839_1922.csv
+data/external_data/Street-names/denominations-emprises-voies-actuelles.csv
+data/from_previous_project/repertoires.xlsx
+data/from_previous_project/people_of_richelieu_1839_1922.csv
+data/outcome_of_current_project/paris_jobs_with_tags_richelieu_project_sim85.csv
+data/outcome_of_current_project/paris_jobs_with_tags_richelieu_project.csv
+data/outcome_of_current_project/street_wise_richelieu_people_sim85.json
+data/outcome_of_current_project/street_wise_richelieu_people.json
