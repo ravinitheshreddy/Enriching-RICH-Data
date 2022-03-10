@@ -15,6 +15,8 @@ One of the outcomes of the _Projet Richelieu_ is two datasets. The first is a da
 
 This project (that is contained in this repository) enriches the dataset created by the previous project. It normalized and aligns the professional information across the years making it possible to access and search the dataset. The enriched profession is represented by single words called tags. 
 
+The document detaling the alogorithm and the results can be [seen here](./documents/Report/Enriching_RICH_data_INHA_Internship_Report.pdf).
+
 ### Data
 
 For the data outcome of the previous project, see the `data/from_previous_project` folder.
@@ -29,7 +31,7 @@ The structure of the files is detailed in the respective folders.
 
 ### Process
 
-The pipeline is detailed at [LINK TO THE DOCUMENT](https://) and coded through the Jupyter notebooks. Five notebooks are used for this project. The notebooks must be viewed/processed in the same order as mentioned here.
+The pipeline is detailed at [report](./documents/Report/Enriching_RICH_data_INHA_Internship_Report.pdf) and coded through the Jupyter notebooks. Five notebooks are used for this project. The notebooks must be viewed/processed in the same order as mentioned here.
 - `add_correct_page_numbers.ipynb`: The dataset obtained from the previous project contained the page number that did not correspond to the pages numbers of the scanned documents on Gallica. This notebook adds the page number to all the entries that help in accessing the scanned directories.
 - `creating_french_dictionary_words_set.ipynb`: The notebook is used to read the language dictionaries provided by ortolang and Prolex-Unitex and create a JSON file of correctly spelled words with the root word (lemma) as the key and the list of derived words (flexions) as the values.
 - `cleaning_special_characters.ipynb`: During the OCR process, some symbols and alphabets were misinterpreted as special characters. This notebook is used to rectify and remove the non-alphanumeric characters present in the professions.
